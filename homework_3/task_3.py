@@ -1,7 +1,7 @@
 text = input("Input: ").lower()
 cleaned = ""
 for char in text:
-    if char.isascii():
+    if char.isalpha():
         cleaned += char
 
 rev = cleaned[::-1]
